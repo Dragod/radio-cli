@@ -1,4 +1,4 @@
-# Radio
+# Radio-cli
 ### Listen your favourite Web Radio from CLI, on Windows 10.
 
 ### *** Requisite, please read this note: ***
@@ -18,6 +18,12 @@ The radio-cli package won't work without mpv player.
 ```
 
 - Save ```radio.js``` and type on the terminal ```node radio --cc```
+---
+
+## With Npx
+
+```npx i radio-cli --radioName```
+
 ---
 ***Default Web Radio flags***
 
