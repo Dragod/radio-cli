@@ -1,6 +1,6 @@
 {
   "name": "radio-cli",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Listen Radio from CLI on Windows 10",
   "main": "src/radio.js",
   "scripts": {},
