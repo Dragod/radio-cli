@@ -1,0 +1,16 @@
+{
+  "name": "radio-cli",
+  "version": "1.0.7",
+  "description": "Listen Radio from CLI on Windows 10",
+  "main": "src/radio.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.4",
+    "minimist": "^1.2.5"
+  },
+  "bin": {
+    "build.js": "./bin/radio.js"
+  }
+}
