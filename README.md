@@ -22,7 +22,7 @@ The radio-cli package won't work without mpv player.
 
 ## With Npx
 
-```npx i radio-cli --radioName```
+```npx radio-cli --radioName```
 
 ---
 ***Default Web Radio flags***
