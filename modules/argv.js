@@ -15,7 +15,7 @@ const argv = require('minimist')(process.argv.slice(2),
         'm2o',
         'kiss',
         'sport',
-        'latteMiele',
+        'latte',
         'arancia',
         'channels'
     ],
@@ -43,7 +43,7 @@ function getArgs(arg)
         "m2o": argv.m2o,
         "kiss": argv.kiss,
         "sport": argv.sport,
-        "latteMiele": argv.latteMiele,
+        "latteMiele": argv.latte,
         "arancia": argv.arancia,
         "channels": argv.channels
 
