@@ -26,22 +26,22 @@ let radio =
 
 let radioTable =
 [
-    { Radio: "Radio 105 Network", Command: "--cc" },
+    { Radio: "105 Network", Command: "--cc" },
     { Radio: "Rtl 102.5", Command: "--rtl" },
-    { Radio: "Virgin Radio", Command: "--virgin" },
-    { Radio: "Radio Italia", Command: "--italia" },
-    { Radio: "Radio Subasio", Command: "--subasio" },
-    { Radio: "Radio Montercarlo 2", Command: "--mc2" },
-    { Radio: "Radio Rai 1", Command: "--rai1" },
-    { Radio: "Radio Rai 2", Command: "--rai2" },
-    { Radio: "Radio Rai 3", Command: "--rai3" },
-    { Radio: "Radio Dimensione Suono", Command: "--rds" },
+    { Radio: "Virgin", Command: "--virgin" },
+    { Radio: "Italia", Command: "--italia" },
+    { Radio: "Subasio", Command: "--subasio" },
+    { Radio: "MC 2", Command: "--mc2" },
+    { Radio: "Rai 1", Command: "--rai1" },
+    { Radio: "Rai 2", Command: "--rai2" },
+    { Radio: "Rai 3", Command: "--rai3" },
+    { Radio: "Rds", Command: "--rds" },
     { Radio: "M2o", Command: "--m2o" },
-    { Radio: "Radio Kiss Kiss", Command: "--kiss" },
-    { Radio: "Radio Sport", Command: "--sport" },
-    { Radio: "Radio 70-80-90", Command: "--r789" },
-    { Radio: "Radio Latte e Miele", Command: "--latte" },
-    { Radio: "Radio Arancia Network", Command: "--arancia" }
+    { Radio: "Kiss Kiss", Command: "--kiss" },
+    { Radio: "Sport", Command: "--sport" },
+    { Radio: "70-80-90", Command: "--r789" },
+    { Radio: "Latte e Miele", Command: "--latte" },
+    { Radio: "Arancia", Command: "--arancia" }
 ]
 
 function channels()
