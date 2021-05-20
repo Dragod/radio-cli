@@ -22,7 +22,7 @@ const argv = require('minimist')(process.argv.slice(2),
     alias: {},
     unknown: function(){
         console.log(`\r\n Flag not found.`)
-        console.log(`\r\n Available flag: --cc, --rtl, --virgin, --dj, --italia, --subasio, --mc2, --rai1, --rai2, --rai3, --m2o, --kiss, --sport, --latteMiele, --arancia, --channels`);
+        console.log(`\r\n Available flag: --cc, --rtl, --virgin, --dj, --italia, --subasio, --mc2, --rai1, --rai2, --rai3, --m2o, --kiss, --sport, --latte, --arancia, --channels`);
     }
     });
 

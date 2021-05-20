@@ -106,7 +106,7 @@ function stream()
     {
         exec.e(`${radio.sport}`)
     }
-    else if (args.getArgs('latteMiele'))
+    else if (args.getArgs('latte'))
     {
         exec.e(`${radio.latte}`)
     }
