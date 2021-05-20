@@ -16,12 +16,13 @@ const argv = require('minimist')(process.argv.slice(2),
         'kiss',
         'sport',
         'latteMiele',
-        'arancia'
+        'arancia',
+        'channels'
     ],
     alias: {},
     unknown: function(){
         console.log(`\r\n Flag not found.`)
-        console.log(`\r\n Available flag: --cc, --rtl, --virgin, --dj, --italia, --subasio, --mc2, --rai1, --rai2, --rai3, --m2o, --kiss, --sport, --latteMiele, --arancia`);
+        console.log(`\r\n Available flag: --cc, --rtl, --virgin, --dj, --italia, --subasio, --mc2, --rai1, --rai2, --rai3, --m2o, --kiss, --sport, --latteMiele, --arancia, --channels`);
     }
     });
 
@@ -44,6 +45,7 @@ function getArgs(arg)
         "sport": argv.sport,
         "latteMiele": argv.latteMiele,
         "arancia": argv.arancia,
+        "channels": argv.channels
 
     };
     return args[arg] ;

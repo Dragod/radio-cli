@@ -18,11 +18,27 @@ The radio-cli package won't work without mpv player.
 ```
 
 - Save ```radio.js``` and type on the terminal ```node radio --cc```
+- For a list of channel node radio --channels
 ---
 
 ## With Npx
 
+- Start radio stream
+
 ```npx radio-cli --radioName```
+
+- Show availables radio
+
+```npx radio-cli --channels```
+
+## Mobile use
+
+If you want to use radio-cli on your mobile device:
+- Install "termux"
+- From termux CLI run: "pkg install mpv"
+- npx radio-cli --radioName
+
+Enjoy your mobile radio!
 
 ---
 ***Default Web Radio flags***

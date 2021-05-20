@@ -24,6 +24,38 @@ let radio =
     "arancia": "https://stream3.xdevel.com/audio0s975447-156/stream/icecast.audio"
 }
 
+let radioTable =
+[
+    { Radio: "Radio 105 Network", Command: "--cc" },
+    { Radio: "Rtl 102.5", Command: "--rtl" },
+    { Radio: "Virgin Radio", Command: "--virgin" },
+    { Radio: "Radio Italia", Command: "--italia" },
+    { Radio: "Radio Subasio", Command: "--subasio" },
+    { Radio: "Radio Montercarlo 2", Command: "--mc2" },
+    { Radio: "Radio Rai 1", Command: "--rai1" },
+    { Radio: "Radio Rai 2", Command: "--rai2" },
+    { Radio: "Radio Rai 3", Command: "--rai3" },
+    { Radio: "Radio Dimensione Suono", Command: "--rds" },
+    { Radio: "M2o", Command: "--m2o" },
+    { Radio: "Radio Kiss Kiss", Command: "--kiss" },
+    { Radio: "Radio Sport", Command: "--sport" },
+    { Radio: "Radio 70-80-90", Command: "--r789" },
+    { Radio: "Radio Latte e Miele", Command: "--latte" },
+    { Radio: "Radio Arancia Network", Command: "--arancia" }
+]
+
+function channels()
+{
+    console.table(
+        radioTable.map(header => {
+            return {
+                "Radio": header.Radio,
+                "CLI command": header.Command,
+            };
+        })
+    );
+}
+
 function stream()
 {
     if (args.getArgs('cc'))
@@ -84,9 +116,9 @@ function stream()
     }
     else
     {
-        console.log("\n\rPlease pass a valid radio name");
+        console.log("Error: Please use a valid radio name, try --channels for a list of available radio");
     }
 }
 
-module.exports = {stream}
+module.exports = {stream,channels}
 

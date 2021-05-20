@@ -13,5 +13,8 @@
   },
   "bin": {
     "build.js": "./bin/radio.js"
+  },
+  "devDependencies": {
+    "device-detect": "^1.0.7"
   }
 }
