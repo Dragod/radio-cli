@@ -43,7 +43,7 @@ function getArgs(arg)
         "m2o": argv.m2o,
         "kiss": argv.kiss,
         "sport": argv.sport,
-        "latteMiele": argv.latte,
+        "latte": argv.latte,
         "arancia": argv.arancia,
         "channels": argv.channels
 
