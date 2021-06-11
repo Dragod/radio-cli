@@ -12,7 +12,7 @@
     "minimist": "^1.2.5"
   },
   "bin": {
-    "radio.js": "./bin/radio.js"
+    "radio": "./bin/radio.js"
   },
   "devDependencies": {
     "device-detect": "^1.0.7"
