@@ -1,5 +1,5 @@
 # Radio-cli
-### Listen your favourite Web Radio from CLI, on Windows 10.
+### Listen your favourite Web Radio from CLI, on Windows or Android using Termux.
 
 ### *** Requisite, please read this note: ***
 > Dependencies: [Mpv player](https://mpv.io/installation) witch is free and Open Source.
